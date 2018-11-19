@@ -1,0 +1,10 @@
+Sun Apr  1 02:44:56 2018 => 70 pagou por telefone 10 a quantidade de 5000, pagamento do banco do usuário para 70 é igual a $3710000 e para 70 é igual a $105000
+Sun Apr  1 19:51:20 2018 => 7 pagou por telefone 13 a quantidade de 10000, pagamento do banco do usuário para 7 é igual a $45589 e para 7 é igual a $121841
+Sun Apr  1 20:13:29 2018 => 37 pagou por telefone 13 a quantidade de 20000, pagamento do banco do usuário para 37 é igual a $1266143 e para 37 é igual a $140591
+Mon Apr  2 23:36:50 2018 => 37 pagou por telefone 37 a quantidade de 57660, pagamento do banco do usuário para 37 é igual a $2569243 e para 37 é igual a $2626903
+Mon Apr  2 23:54:04 2018 => 5 pagou por telefone 37 a quantidade de 20000, pagamento do banco do usuário para 5 é igual a $228864 e para 5 é igual a $2646903
+Thu Apr  5 19:49:59 2018 => 7 pagou por telefone 5 a quantidade de 35000, pagamento do banco do usuário para 7 é igual a $90848 e para 7 é igual a $242264
+Thu Apr  5 19:52:02 2018 => 7 pagou por telefone 5 a quantidade de 2500, pagamento do banco do usuário para 7 é igual a $88348 e para 7 é igual a $244764
+Thu Apr  5 20:11:23 2018 => 7 pagou por telefone 13 a quantidade de 10000, pagamento do banco do usuário para 7 é igual a $77348 e para 7 é igual a $58093
+Sun Apr  8 13:57:56 2018 => 70 pagou por telefone 4 a quantidade de 20000, pagamento do banco do usuário para 70 é igual a $3179000 e para 70 é igual a $114156
+Fri Apr 13 14:31:56 2018 => 4 pagou por telefone 1 a quantidade de 1280, pagamento do banco do usuário para 4 é igual a $413211 e para 4 é igual a $15523953
