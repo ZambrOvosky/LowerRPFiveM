@@ -20,16 +20,15 @@ cfg.garage_types = {
   
   ["Veículos PM"] = {
     _config = {vtype="car",blipcolor=4,permissions={"pm.garagem"}},
-    ["police2"] = {"Fiat Siena",0, ""},
-	["sheriff"] = {"Chevrolet Trailblazer",0, ""},
-	["pranger"] = {"pranger",0, ""},
-	["policeb"] = {"Yamaha XT660",0, ""},
+    ["police2"] = {"S10",0, ""},
+	["police4"] = {"Duster",0, ""},
+	["police"] = {"Voyage",0, ""},
+	["policet"] = {"Splinter GM",0, ""},
   },    
   
   ["Veículos ROTA"] = {
     _config = {vtype="car",blipcolor=4,permissions={"rota.garagem"}},
     ["TRAILBLAZERrota"] = {"Trailblazer",0, ""},
-	["police"] = {"police",0, ""},
 	["devast"] = {"Caveirão",0, ""},
   },    
   
@@ -41,7 +40,7 @@ cfg.garage_types = {
   
   ["heliponto PM"] = {
     _config = {vtype="car",blipcolor=4,permissions={"aguia.garagem"}},
-    ["as350"] = {"Águia PMESP",0, ""},
+    ["polmav"] = {"Águia PMESP",0, ""},
 
   },    
   
@@ -54,7 +53,7 @@ cfg.garage_types = {
   
   ["hospital"] = {
     _config = {vtype="car",blipcolor=4,permissions={"hospital.garagem"}},
-	["sw4samu"] = {"SW4 Samu",0, ""},
+	["policeb"] = {"Moto Bombeiro",0, ""},
     ["ambulance"] = {"Ambulancia",0, ""}
   },
   ["heliponto SAMU"] = {

@@ -84,7 +84,7 @@ cfg.groups = {
     "police.seizable" -- can be seized
   }, 
   
-  ["Coronel ROTA"] = {
+  ["[PMERJ]Coronel"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -124,6 +124,93 @@ cfg.groups = {
 	"police.askid",
 	"coronel.paycheck",
 	"coronel.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PCERJ] Delegado"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"coronel.door",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+	"police.weapon_search",
+    "police.pc",
+	"radar.pass",
+	"holdup.police",
+	"rota.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"delegado.paycheck",
+	"coronel.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PCERJ]Agente"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"agente.paycheck",
+	"pm.weapons",
     "-police.store_weapons",
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
@@ -171,7 +258,50 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Soldado"] = {
+  ["[PMERJ]Recruta"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"recruta.paycheck",
+	"pm.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PMERJ]Soldado"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -214,7 +344,93 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Sargento"] = {
+  ["[PMERJ]3SGT"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"3sargento.paycheck",
+	"pm.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PMERJ]2SGT"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"2sargento.paycheck",
+	"pm.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PMERJ]1SGT"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -257,7 +473,7 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Subtenente"] = {
+  ["[PMERJ]Subtenente"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -300,7 +516,7 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Asp Oficial"] = {
+  ["[PMERJ]Asp Oficial"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -343,7 +559,50 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Tenente"] = {
+  ["[PMERJ]2Tenente"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"2tenente.paycheck",
+	"pm.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["[PMERJ]1Tenente"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -386,7 +645,7 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Capitão"] = {
+  ["[PMERJ]Capitão"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -429,7 +688,7 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["Major"] = {
+  ["[PMERJ]Major"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -472,7 +731,50 @@ cfg.groups = {
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
   },
   
-  ["ROTA"] = {
+  ["[PMERJ]Ten.Coronel"] = {
+    _config = { 
+      gtype = "job",
+      onjoin = function(player) vRPclient.setCop(player,{true}) end,
+      onspawn = function(player) vRPclient.setCop(player,{true}) end,
+      onleave = function(player) vRPclient.setCop(player,{false}) end
+    },
+    "player.list",
+	"police.easy_jail",
+	"police.easy_unjail",
+	"police.easy_fine",
+	"police.easy_cuff",
+	"police.drag",
+	"police.menu_interaction",
+	"police.door",
+    "police.menu",
+    "pm.cloakroom",
+    "police.pc",
+	"police.weapon_search",
+	"radar.pass",
+	"holdup.police",
+	"pm.garagem",
+    "police.handcuff",
+    "police.putinveh",
+    "police.getoutveh",
+    "police.check",
+    "police.service",
+    "police.wanted",
+	"police.license",
+	"police.licensearm",
+	"bank.police",
+    "police.seize.weapons",
+    "police.seize.items",
+    "police.jail",
+    "police.fine",
+    "police.announce",
+	"police.askid",
+	"tencoronel.paycheck",
+	"pm.weapons",
+    "-police.store_weapons",
+    "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
+  },
+  
+  ["Bope"] = {
     _config = { 
       gtype = "job",
       onjoin = function(player) vRPclient.setCop(player,{true}) end,
@@ -509,7 +811,7 @@ cfg.groups = {
     "police.fine",
     "police.announce",
 	"police.askid",
-	"rota.paycheck",
+	"bope.paycheck",
 	"rota.weapons",
     "-police.store_weapons",
     "-police.seizable" -- negative permission, police can't seize itself, even if another group add the permission
@@ -571,6 +873,20 @@ cfg.groups = {
 	"radar.pass",
 	"samu.cloakroom"
   },
+  
+  ["[CBMERJ]Coronel"] = {
+    _config = { gtype = "job" },
+    "emergency.revive",
+    "emergency.shop",
+	"emergency_heal",
+    "emergency.service",
+	"hospital.garagem",
+	"emergency.medkit",
+	"bombeiro.paycheck",
+	"radar.pass",
+	"samu.cloakroom"
+  },
+  
   ["Mecânico"] = {
     _config = { gtype = "job"},
     "vehicle.repair",

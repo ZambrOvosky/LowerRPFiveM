@@ -116,31 +116,19 @@ local surgery_female9 = { model = "g_f_y_lost_01" }
 local surgery_female10 = { model = "a_f_y_bevhills_01" }
 local surgery_female11 = { model = "a_f_y_bevhills_04" }
 -- policia fardas
-local uniforme_pmconvencional = { model = "s_m_m_armoured_01" }
-local uniforme_pmconvencional2 = { model = "s_m_m_armoured_02" }
-local uniforme_pmconvencional3 = { model = "s_m_m_chemsec_01" }
-local uniforme_pmconvencional4 = { model = "s_m_m_prisguard_01" }
-local uniforme_pmconvencional5 = { model = "s_m_m_snowcop_01" }
-local uniforme_pmconvencional6 = { model = "s_m_y_blackops_02" }
-local uniforme_pmconvencional7 = { model = "s_m_y_blackops_03" }
-local uniforme_pmconvencional8 = { model = "s_m_y_cop_01" }
-local uniforme_pmconvencional9 = { model = "s_m_y_hwaycop_01" }
-local uniforme_pmconvencional10 = { model = "s_m_y_marine_01" }
-local uniforme_pmconvencional11 = { model = "s_m_y_marine_02" }
-local uniforme_pmconvencional12 = { model = "s_m_y_marine_03" }
-local uniforme_aguia = { model = "s_m_m_pilot_02" }
-local uniforme_aguia2 = { model = "s_m_m_armoured_01" }
-local uniforme_coronel1 = { model = "s_m_y_ranger_01" }
-local uniforme_coronel2 = { model = "s_m_y_sheriff_01" }
-local uniforme_coronel3 = { model = "s_m_y_swat_01" }
+local uniforme_pmconvencional = { model = "s_m_y_ranger_01" }
+local uniforme_pmconvencional2 = { model = "s_m_y_cop_01" }
+local uniforme_pmconvencional3 = { model = "s_m_y_sheriff_01" }
+local uniforme_guardamunicipal = { model = "s_m_m_security_01" }
+local uniforme_pcerj = { model = "s_m_m_fibsec_01" }
+local uniforme_coronel1 = { model = "" }
 local uniforme_federal1 = { model = "s_m_y_blackops_01" }
-local uniforme_federal2 = { model = "s_m_m_fibsec_01" }
+local uniforme_federal2 = { model = "" }
 local uniforme_rota1 = { model = "s_m_y_ranger_01" }
-local uniforme_rota2 = { model = "s_m_y_sheriff_01" }
-local uniforme_rota3 = { model = "s_m_y_swat_01" }
 
 -- samu fardas
-local uniforme_samu = { model = "s_m_m_paramedic_01" }
+local uniforme_cbmerj = { model = "s_m_y_fireman_01" }
+local uniforme_salvavidas = { model = "s_m_y_baywatch_01" }
 
 -- claro uniform
 local uniforme_claro = { model = "s_m_y_airworker" }
@@ -164,26 +152,14 @@ for i=0,19 do
   uniforme_pmconvencional[i] = {0,0}
   uniforme_pmconvencional2[i] = {0,0}
   uniforme_pmconvencional3[i] = {0,0}
-  uniforme_pmconvencional4[i] = {0,0}
-  uniforme_pmconvencional5[i] = {0,0}
-  uniforme_pmconvencional6[i] = {0,0}
-  uniforme_pmconvencional7[i] = {0,0}
-  uniforme_pmconvencional8[i] = {0,0}
-  uniforme_pmconvencional9[i] = {0,0}
-  uniforme_pmconvencional10[i] = {0,0}
-  uniforme_pmconvencional11[i] = {0,0}
-  uniforme_pmconvencional12[i] = {0,0}
-  uniforme_aguia[i] = {0,0}
-  uniforme_aguia2[i] = {0,0}
+  uniforme_guardamunicipal[i] = {0,0}
+  uniforme_pcerj[i] = {0,0}
   uniforme_rota1[i] = {0,0}
-  uniforme_rota2[i] = {0,0}
-  uniforme_rota3[i] = {0,0}
   uniforme_coronel1[i] = {0,0}
-  uniforme_coronel2[i] = {0,0}
-  uniforme_coronel3[i] = {0,0}
   uniforme_federal1[i] = {0,0}
   uniforme_federal2[i] = {0,0}
-  uniforme_samu[i] = {0,0}
+  uniforme_cbmerj[i] = {0,0}
+  uniforme_salvavidas[i] = {0,0}
   uniforme_claro[i] = {0,0}
   uniforme_ambev[i] = {0,0}
   uniforme_cacador[i] = {0,0}
@@ -308,7 +284,7 @@ end
 ---- permissions (optional)
 ---- not_uniform (optional): if true, the cloakroom will take effect directly on the player, not as a uniform you can remove
 cfg.cloakroom_types = {
-  ["Policia Militar"] = {
+  ["Policia"] = {
     _config = { permissions = {"pm.cloakroom"} },
     --[[["Uniform"] = {
       [3] = {30,0},
@@ -318,18 +294,11 @@ cfg.cloakroom_types = {
       [11] = {55,0},
       ["p2"] = {2,0}
     },]]
-	["Policia Militar"] = uniforme_pmconvencional,
-	["Policia Militar 2"] = uniforme_pmconvencional2,
-	["Policia Militar 3"] = uniforme_pmconvencional3,
-	["Policia Militar 4"] = uniforme_pmconvencional4,
-	["Policia Militar 5"] = uniforme_pmconvencional5,
-	["Policia Militar 6"] = uniforme_pmconvencional6,
-	["Policia Militar 7"] = uniforme_pmconvencional7,
-	["Policia Militar 8"] = uniforme_pmconvencional8,
-	["Policia Militar 9"] = uniforme_pmconvencional9,
-	["Policia Militar 10"] = uniforme_pmconvencional10,
-	["Policia Militar 11"] = uniforme_pmconvencional11,
-	["Policia Militar 12"] = uniforme_pmconvencional12,
+	["PMERJ Patrulha"] = uniforme_pmconvencional,
+	["PMERJ Combate"] = uniforme_pmconvencional2,
+	["PMERJ Recruta"] = uniforme_pmconvencional3,
+	["Guarda Municipal"] = uniforme_guardamunicipal,
+	["PCERJ Agente"] = uniforme_pcerj,
 	["> s/ farda Mulher"] = surgery_female,
 	
   },
@@ -344,8 +313,7 @@ cfg.cloakroom_types = {
       [11] = {55,0},
       ["p2"] = {2,0}
     },]]
-	["Farda do Águia"] = uniforme_aguia,
-	["Farda do Águia 2"] = uniforme_pmconvencional,
+	["Farda do Águia"] = uniforme_pmconvencional,
 	["> s/ farda Mulher"] = surgery_female,
 	
   },
@@ -366,7 +334,7 @@ cfg.cloakroom_types = {
 	
   },
   
-  ["Coronel ROTA"] = {
+  ["Coronel"] = {
     _config = { permissions = {"coronel.cloakroom"} },
     --[[["Uniform"] = {
       [3] = {30,0},
@@ -377,8 +345,6 @@ cfg.cloakroom_types = {
       ["p2"] = {2,0}
     },]]
     ["Farda do Coronel"] = uniforme_coronel1,
-	["Farda do Corone2"] = uniforme_coronel2,
-	["Farda do Corone3"] = uniforme_coronel3,
 	["> s/ farda Mulher"] = surgery_female,
 	
   },
@@ -394,8 +360,6 @@ cfg.cloakroom_types = {
       ["p2"] = {2,0}
     },]]
     ["ROTA 01"] = uniforme_rota1,
-	["ROTA 02"] = uniforme_rota2,
-	["ROTA 03"] = uniforme_rota3,
 	["> s/ farda Mulher"] = surgery_female,
 	
   },
@@ -536,7 +500,8 @@ cfg.cloakroom_types = {
       [11] = {13,3},
       ["p2"] = {2,0}
     }]]
-    ["Uniforme SAMU"] = uniforme_samu,
+    ["Bombeiros"] = uniforme_cbmerj,
+	["Salva Vidas"] = uniforme_salvavidas,
 	["> s/ farda Homem"] = surgery_male,
 	["> s/ farda Mulher"] = surgery_female,
   },
@@ -657,7 +622,7 @@ cfg.cloakroom_types = {
 }
 
 cfg.cloakrooms = {
-  {"Policia Militar",457.47616577148,-993.30609130859,30.689603805542},
+  {"Policia",457.47616577148,-993.30609130859,30.689603805542},
   {"Águia",455.47723388672,-993.35894775391,30.689599990845},
   {"Coronel ROTA",455.29699707031,-988.36389160156,30.689599990845},
   {"ROTA",459.47399902344,-993.30609130859,30.689599990845},
