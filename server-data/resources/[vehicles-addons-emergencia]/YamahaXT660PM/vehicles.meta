@@ -25619,10 +25619,10 @@
       </firstPersonDrivebyData>
     </Item>
     <Item>
-      <modelName>policeb</modelName>
-      <txdName>policeb</txdName>
-      <handlingId>POLICEB</handlingId>
-      <gameName>POLICEB</gameName>
+      <modelName>policebpm</modelName>
+      <txdName>policebpm</txdName>
+      <handlingId>POLICEBPM</handlingId>
+      <gameName>POLICEBPM</gameName>
       <vehicleMakeName>MAIBATSU</vehicleMakeName>
       <expressionDictName>null</expressionDictName>
       <expressionName>null</expressionName>
@@ -25633,13 +25633,13 @@
       <audioNameHash />
       <layout>LAYOUT_BIKE_DIRT</layout>
       <coverBoundOffsets>BIKE_COVER_OFFSET_INFO</coverBoundOffsets>
-	  <POVTuningInfo>POLICEB_POV_TUNING</POVTuningInfo>
+	  <POVTuningInfo>POLICEBPM_POV_TUNING</POVTuningInfo>
       <explosionInfo>EXPLOSION_INFO_DEFAULT</explosionInfo>
       <scenarioLayout />
       <cameraName>FOLLOW_UPRIGHT_BIKE_CAMERA</cameraName>
       <aimCameraName>BIKE_AIM_CAMERA</aimCameraName>
       <bonnetCameraName>BIKE_SANCHEZ_POV_CAMERA</bonnetCameraName>
-      <povCameraName>BIKE_POLICEB_POV_CAMERA</povCameraName>
+      <povCameraName>BIKE_POLICEBPM_POV_CAMERA</povCameraName>
       <FirstPersonDriveByIKOffset x="0.000000" y="-0.060000" z="0.000000" />
       <FirstPersonDriveByUnarmedIKOffset x="0.000000" y="0.000000" z="0.000000" />
 	  <FirstPersonProjectileDriveByIKOffset x="0.030000" y="0.020000" z="0.000000" />
@@ -33266,7 +33266,7 @@
     </Item>
     <Item>
       <parent>vehicles_chopperbk_interior</parent>
-      <child>policeb</child>
+      <child>policebpm</child>
     </Item>
     <Item>
       <parent>vehicles_chopperbk_interior</parent>

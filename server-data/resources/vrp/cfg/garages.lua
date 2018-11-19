@@ -20,6 +20,7 @@ cfg.garage_types = {
   
   ["Veículos PM"] = {
     _config = {vtype="car",blipcolor=4,permissions={"pm.garagem"}},
+	["policebpm"] = {"Moto ROCAM",0, ""},
     ["police2"] = {"S10",0, ""},
 	["police4"] = {"Duster",0, ""},
 	["police"] = {"Voyage",0, ""},
