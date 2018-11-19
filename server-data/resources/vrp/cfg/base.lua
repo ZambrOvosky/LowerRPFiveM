@@ -3,7 +3,7 @@ local cfg = {}
 
 -- mysql credentials
 cfg.db = {
-  host = "127.0.0.1:3301",
+  host = "127.0.0.1:3306",
   database = "vrp",
   user = "root",
   password = ""
