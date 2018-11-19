@@ -11442,7 +11442,7 @@
       </SubHandlingData>
     </Item>
     <Item type="CHandlingData">
-      <handlingName>POLICEBPM</handlingName>
+      <handlingName>POLICEB</handlingName>
       <fMass value="181.000000" />
       <fInitialDragCoeff value="12.300000" />
       <fPercentSubmerged value="95.000000" />
